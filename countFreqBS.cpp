@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//binary search method
+
 int leftIndex(int a[], int n, int l, int r, int k){
     int res=-1;
     while (l<=r)
