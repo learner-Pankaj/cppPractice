@@ -14,7 +14,7 @@ int printMin(int a[], int n, int i, int min){
 }
 
 int main(){
-    int a[] = {12,75,45,4,56,67};
+    int a[] = {12,-75,45,-4,56,67};
     int size = sizeof(a)/sizeof(a[0]);
     int min = printMin(a, size, 0, a[0]);
     cout << min << endl;
