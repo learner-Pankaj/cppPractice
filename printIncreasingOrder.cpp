@@ -14,7 +14,7 @@ void printIncreasingOrder(int current, int n){
 }
 
 int main(){
-    int n = 7;
+    int n = 4;
     int current = 1;
     printIncreasingOrder(current, n);
     cout << endl;
